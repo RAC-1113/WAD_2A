@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashaa.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sidebar Menu -->
+    <div class="sidebar">
+        <div class="brand">
+            <h1>Quick Access</h1><br>
+            <hr color="white">
+        </div>
+        <ul>
+            <li><img src="img/dash.png" alt="Dashboard">Dashboard</li>
+            <li><img src="img/manage_stud.png" alt="Students">Manage Students</li>
+            <li><img src="img/manage_teach.jfif" alt="Teachers">Manage Teachers</li>
+            <li><img src="img/assignment.png" alt="Assignments">Assignments</li>
+            <li><img src="img/exam.png" alt="Exams">Exams</li>
+            <li><img src="img/notes.jfif" alt="Notes">Notes</li>
+            <li><img src="img/activity.png" alt="Activities">Activities</li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+        <!-- Header -->
+        <header>
+            <div class="college-name">
+                <h1>College Dashboard</h1>
+            </div>
+            <div class="user-menu">
+                <img src="img/profile.jpg" alt="User Profile" class="profile-pic">
+                <a href="#" class="logout">Logout</a>
+            </div>
+        </header>
+
+        <section class="activities">
+            <div class="section-header">
+                <h2>Personal Information</h2>
+            </div>
+            <h4>ID: T2209 <br> Name: Raghav Dagha <br> Position: Assitant Professor <br> Subject: Web Application Development <br> Contact: 7058933061</h4>
+        </section>
+
+        <!-- Dashboard Overview Cards -->
+        <section class="overview">
+            <div class="card">
+                <h2>500</h2>
+                <p>Students Enrolled</p>
+            </div>
+            <div class="card">
+                <h2>21</h2>
+                <p>Ongoing Assignments</p>
+            </div>
+            <div class="card">
+                <h2>122</h2>
+                <p>Teachers</p>
+            </div>
+            <div class="card">
+                <h2>3</h2>
+                <p>Upcoming Events</p>
+            </div>
+        </section>
+
+        <!-- Activities Section -->
+
+        <section class="activities">
+            <div class="section-header">
+                <h2>Recent Activities</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Class</th>
+                        <th>Total Students</th>
+                        <th>Highest Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>WAD</td>
+                        <td>TE-A</td>
+                        <td>65</td>
+                        <td>Rohit</td>
+                    </tr>
+                    <tr>
+                        <td>Cloud Computing</td>
+                        <td>TE-B</td>
+                        <td>70</td>
+                        <td>Ankita</td>
+                    </tr>
+                    <tr>
+                        <td>DSBDA</td>
+                        <td>All</td>
+                        <td>100</td>
+                        <td>Sachin</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- New Students Section -->
+        <section class="new-students">
+            <div class="section-header">
+                <h2>New Students</h2>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Profile</th>
+                        <th>Name</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="icons/profile-user.png" alt="Profile"></td>
+                        <td>Sanath</td>
+                        <td><button class="btn">View</button></td>
+                    </tr>
+                    <tr>
+                        <td><img src="icons/profile-user.png" alt="Profile"></td>
+                        <td>Mahesh</td>
+                        <td><button class="btn">View</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
